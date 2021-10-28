@@ -1,17 +1,14 @@
-<template>
-  <section class="container-fluid bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-sticky">
-      <div class="container-fluid">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <router-link to="/" class="nav-link text-light fw-bold p-0 m-0">
-            <span class="secure">Secure</span> Password
-            <img
+<template>  
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-purple-dark">
+      <div class="container-fluid">        
+          <router-link to="/" class="navbar-brand nav-link text-light fw-bold p-0 m-0">
+            <span class="secure">Ingreso y Egresos</span>
+            <!-- <img
               src="/images/5291171.png"
               alt="logo"
               style="width: 35px; height: 35px"
-            />
-          </router-link>
-        </ul>
+            /> -->
+          </router-link>        
         <button
           class="navbar-toggler"
           data-bs-toggle="collapse"
@@ -106,8 +103,7 @@
           </div>
         </div>
       </div>
-    </nav>
-  </section>
+    </nav>  
 </template>
 <script>
 export default {
